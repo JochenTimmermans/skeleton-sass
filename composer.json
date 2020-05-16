@@ -3,16 +3,12 @@
 	"description": "A plugin that adds SASS compilation and watcher",
 	"type": "library",
 	"license": "MIT",
-	"authors": [
-		{
-			"name": "Jochen Timmermans",
-			"email": "jochentimmermans@gmail.com"
-		}
-	],
+	"authors": [{
+		"name": "Jochen Timmermans",
+		"email": "jochentimmermans@gmail.com"
+	}],
 	"autoload": {
-		"psr-4": {
-			"Skeleton\\Sass\\": "lib/Skeleton/Sass/"
-		}
+		"psr-4": { "Skeleton\\Sass\\": "lib/Skeleton/Sass/" }
 	},
 	"require": {}
 }

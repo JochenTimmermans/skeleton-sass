@@ -42,7 +42,7 @@ class Sass_Watch extends \Skeleton\Console\Command {
 
 		echo "Watch directory: " . $watch_directory . " - " . $output_directory;
 
-//		return 0;
+		return 0;
 	}
 
 }
